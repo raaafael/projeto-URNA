@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+#Urna {
+    position: absolute;
+    display: flex;
+    background: #f0ecdf;
+    height: 90mm;
+    width: auto;
+    padding: 2%;
+    gap: 3%;
+}
+#display {
+    background: #ffffff;
+    text-align: center;
+    width: auto;
+    padding: 0 6%;
+}
+#opc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 15%;
+}
+#opc button {
+    justify-items: center;
+    align-content: center;
+    transform: none;
+    animation: none;
+    padding: 50%;
+}
+#opc p {
+    margin: 0;
+    font-size: 140%;
+}
+#ImgVereador {
+    height: 190px;
+}
+#vereador h1 {
+    font-size: 160%;
+}
+#vereador button, #vereador span{
+    width: 10%;
+    height: 8mm;
+}
+#lateral {
+    width: 100mm;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #434343;
+}
+#lateral span{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 70%;
+    text-align: center;
+    background: #f4f4f4;
+}
+#lateral span img {
+    height: 75px;
+    width: auto;
+}
+#tecladoNum{
+    height: 100%;
+    padding: 6%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+#tecladoNum .last {
+    grid-column: 2;
+}
+#confirm {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    grid-column: 1/-1;
+}
+#tecladoNum button {
+    width: 75%;
+    height: 75%;
+    background: #434343;
+    color: #ffffff;
+    display: flex;
+    font-size: 160%;
+}
+#confirm button {
+    font-size: 82%;
+    padding: 4% 2%;
+}
+#confirm #clr {
+    background: rgb(228, 228, 228);
+    color: rgb(0, 0, 0);
+}
+#confirm #undo {
+    background: rgb(200, 0, 0);
+}
+#confirm #confrm {
+    background-color: rgb(0, 128, 0);
+}

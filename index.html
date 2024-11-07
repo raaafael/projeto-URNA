@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Eleições 2024!</title>
+</head>
+<body>
+    <div id="Urna">
+        <div id="display">
+            <p>TREINAMENTO</p>
+            <div style="display: flex;">
+                <img src="./naoSelecionado.jpg" id="ImgVereador">
+                <div id="vereador">
+                    <h1 id="nome">PREFEITO(A)</h1>
+                    <span id="opc">
+                        <button><p id="Num1"></p></button>
+                        <button><p id="Num2"></p></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="lateral">
+            <span><img src="justiça eleitoral.svg" alt="JUSTIÇA ELEITORAL.PNG"><h1>JUSTIÇA <br>ELEITORAL</h1></span>
+            <div id="tecladoNum">
+                <button id="1" onclick="Num(1)" value="1">1</button>
+                <button id="2" onclick="Num(2)" value="2">2</button>
+                <button id="3" onclick="Num(3)" value="3">3</button>
+                <button id="4" onclick="Num(4)" value="4">4</button>
+                <button id="5" onclick="Num(5)" value="5">5</button>
+                <button id="6" onclick="Num(6)" value="6">6</button>
+                <button id="7" onclick="Num(7)" value="7">7</button>
+                <button id="8" onclick="Num(8)" value="8">8</button>
+                <button id="9" onclick="Num(9)" value="9">9</button>
+                <button id="0" onclick="Num(0)" value="0" class="last">0</button>
+                <div id="confirm">
+                    <button onclick="Clear()" id="clr">BRANCO</button>
+                    <button id="undo">CORRIGIR</button>
+                    <button id="confrm">CONFIRMAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
